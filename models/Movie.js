@@ -9,7 +9,7 @@ const movieSchema = new Schema ({
     type: String,
     required: [true, "Debes agregar que genero es"]
   },
-  image: {
+  images: {
     // [] es para poder agregar multiples urls
     type: [String], 
   }
